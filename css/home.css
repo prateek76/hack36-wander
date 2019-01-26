@@ -1,0 +1,79 @@
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+background-color: transparent!important;
+}
+
+body {
+  background: linear-gradient(45deg,#4cbfb3,#5ae6b4);
+  height: 2000px;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;} 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+div.subparent {
+    background: #f2f2f2;
+    margin: 30px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 17px;
+    width: 550px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fromto {
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.members {
+  font-size: 26px;
+}
+
+.status {
+  background: #e6b8d8;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.hit,.git {
+font-size: 21px!important;
+padding: 3px;
+}
+
+.hit:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.git:hover {
+  color: orange;
+  cursor: pointer;
+}
